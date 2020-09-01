@@ -1,0 +1,13 @@
+[Unit]
+Description=Create a ssh tunnel to a public ip
+After=network.target
+
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=10
+User=<your user>
+ExecStart=/bin/bash <your path to create_tunnel.sh>
+
+[Install]
+WantedBy=multi-user.target

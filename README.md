@@ -1,14 +1,19 @@
 # Ssh-tunneler
 
-# Setup
+## Environment
+* Ubuntu 18.04
+
+## Setup
 * `docker build -t jimlin7777/ssh-tunneler --no-cache .`
 * Put your public key (named it as `id_rsa.pub`) and put it into this folder.
+* Modify parenthesis enclosing string to meet your need and then put `create_tunnel.service` into `/etc/systemd/system/`.
+* Modify `create_tunnel.sh` to meet your need.
 
 ## Server
 * `docker-compose up -d`
 
 ## Client
-* `bash create_tunnel.sh`
+* `bash create_tunnel.sh` or `systemctl start create_tunnel`
 
 ## References
 * <https://docs.docker.com/engine/examples/running_ssh_service/>
