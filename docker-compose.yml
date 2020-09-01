@@ -1,0 +1,7 @@
+version: '3'
+services:
+    ssh-tunneler:
+        image: jimlin7777/ssh-tunneler
+        ports:
+            - "7799:22" # ssh port
+            - "7800:7800" # remote forwarding port
