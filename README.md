@@ -24,3 +24,5 @@
 * <https://askubuntu.com/questions/87449/how-to-disable-strict-host-key-checking-in-ssh>
 * <https://unix.stackexchange.com/questions/133863/permanent-background-ssh-connection-to-create-reverse-tunnel-what-is-correct-wa>
 * <https://kb.iu.edu/d/aews>
+* <https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6>
+* <https://serverfault.com/questions/845471/service-start-request-repeated-too-quickly-refusing-to-start-limit>
