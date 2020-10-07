@@ -26,3 +26,8 @@
 * <https://kb.iu.edu/d/aews>
 * <https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6>
 * <https://serverfault.com/questions/845471/service-start-request-repeated-too-quickly-refusing-to-start-limit>
+* <https://superuser.com/questions/352268/can-i-make-ssh-fail-when-a-port-forwarding-fails>: `ssh -o ExitOnForwardFailure=yes ...`
+* <https://serverfault.com/questions/595323/ssh-remote-port-forwarding-failed>:
+```
+If the client reconnect before the connection has terminated on the server, you can end up in a situation where the new ssh connection is live, but has no port forwardings. In order to avoid that, you need to use the ExitOnForwardFailure keyword on the client side.
+```
