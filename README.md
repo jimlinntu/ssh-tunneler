@@ -13,7 +13,7 @@
 * `docker-compose up -d`
 
 ## Client
-* `bash create_tunnel.sh` or `systemctl start create_tunnel`
+* `bash create_tunnel.sh` or `systemctl start create_tunnel` (`systemctl enable create_tunnel` if you want it to start after booting)
 
 ## References
 * <https://docs.docker.com/engine/examples/running_ssh_service/>
