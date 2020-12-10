@@ -32,3 +32,8 @@
 If the client reconnect before the connection has terminated on the server, you can end up in a situation where the new ssh connection is live, but has no port forwardings. In order to avoid that, you need to use the ExitOnForwardFailure keyword on the client side.
 ```
 * <https://wiki.ubuntu.com/SystemdForUpstartUsers>: Ubuntu official tutorial.
+* <https://www.freedesktop.org/software/systemd/man/systemd.unit.html#Specifiers>
+* <https://serverfault.com/questions/794922/how-to-use-the-home-environment-variable-in-systemd-service-files>: `$HOME` seems not allowed in `ExecStart`.
+* <https://superuser.com/questions/1025091/start-a-systemd-user-service-at-boot>: run systemd user service.
+* <https://www.unixsysadmin.com/systemd-user-services/>
+* <https://superuser.com/questions/513159/how-to-remove-systemd-services>: `systemctl daemon-reload`
